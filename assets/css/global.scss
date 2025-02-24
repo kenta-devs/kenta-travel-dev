@@ -1,0 +1,48 @@
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 56rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -2.24px;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-family: Rubik;
+  font-size: .56rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  /* 56px */
+  // letter-spacing: -2.24px;
+}
+
+h3 {
+  margin: 0;
+  // color: rgba(26, 26, 26, 0.87);
+  font-family: Rubik;
+  font-size: .2rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+// .mapboxgl-canvas {
+//   position: static !important;
+// }
+
+.el-message {
+  z-index: 99999999 !important;
+}
+
+.mobile {
+  .el-message {
+    min-width: 90% !important;
+  }
+}
+
+// .mapboxgl-canvas {
+//   position: relative !important;
+// }

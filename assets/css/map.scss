@@ -1,0 +1,1350 @@
+
+.theme-xs2event,[data-theme=xs2event] {
+    --twc-always-dark: 210 33.3% 9.4%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 156.39999999999998 20.8% 31.2%;
+    --twc-alternate-background: 210 33.3% 9.4%;
+    --twc-basketcount-background: 156 57.3% 74.3%;
+    --twc-basketcount-text: 0 0% 14.9%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 89%;
+    --twc-brand-button: 156 57.3% 74.3%;
+    --twc-brand-info: 156 57.3% 74.3%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 14.9%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 96.9%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 0 0% 14.9%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 58.8%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 14.9%;
+    --twc-footer: 0 0% 100%;
+    --twc-footer-forecolor: 0 0% 14.9%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 0 0% 100%;
+    --twc-header-icon: 0 0% 14.9%;
+    --twc-header-border: 156 57.3% 74.3%;
+    --twc-highlight: 0 0% 0%;
+    --twc-home-datebox: 0 0% 96.9%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 269.20000000000005 97.4% 85.1%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 100%;
+    --twc-menu-background: 0 0% 100%;
+    --twc-menu-link: 0 0% 14.9%;
+    --twc-mobile-background: 0 0% 89.8%;
+    --twc-mobile-forecolor: 0 0% 14.9%;
+    --twc-mobile-menu: 0 0% 98%;
+    --twc-mobile-overlay: 0 0% 96.9%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 100%;
+    --twc-primary: 156 57.3% 74.3%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 0 0% 100%;
+    --twc-return: 0 0% 14.9%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 0 0% 100%;
+    --twc-search-event: 0 0% 14.9%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-mobile-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 0 0% 14.9%;
+    --twc-secondary: 0 0% 7.5%;
+    --twc-shoppingcart: 0 0% 100%;
+    --twc-shoppingcart-forecolor: 0 0% 14.9%;
+    --twc-shoppingcart-secondary: 0 0% 14.9%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 162.4 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 93.3%;
+    --twc-popular-upcoming-forecolor: 0 0% 14.9%
+}
+
+.theme-priority,[data-theme=priority] {
+    --twc-always-dark: 210 33.3% 9.4%;
+    --twc-filter-btn: 212 17.2% 17.1%;
+    --twc-alternate: 212 17.2% 17.1%;
+    --twc-alternate-background: 210 33.3% 9.4%;
+    --twc-basketcount-background: 0 0% 100%;
+    --twc-basketcount-text: 277.20000000000005 57.8% 43.7%;
+    --twc-background: 210 33.3% 9.4%;
+    --twc-background-row: 212 17.2% 17.1%;
+    --twc-box: 212.29999999999995 7.7% 33.1%;
+    --twc-brand-button: 277.20000000000005 57.8% 43.7%;
+    --twc-brand-info: 0 0% 100%;
+    --twc-brand-text: 0 0% 100%;
+    --twc-breadcrumb: 0 0% 100%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 98%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 210 33.3% 9.4%;
+    --twc-datebox: 212.29999999999995 7.7% 33.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 83.1%;
+    --twc-filter: 212 17.2% 17.1%;
+    --twc-filter-forecolor: 212 17.2% 17.1%;
+    --twc-filter-item: 0 0% 100%;
+    --twc-focus: 220 8.9% 46.1%;
+    --twc-footer: 210 33.3% 9.4%;
+    --twc-footer-forecolor: 0 0% 100%;
+    --twc-forecolor: 0 0% 100%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 277.20000000000005 57.8% 43.7%;
+    --twc-header-icon: 0 0% 100%;
+    --twc-highlight: 0 0% 100%;
+    --twc-header-border: 277.20000000000005 57.8% 43.7%;
+    --twc-home-datebox: 212.29999999999995 7.7% 33.1%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 212 17.2% 17.1%;
+    --twc-inactive: 206.70000000000005 6% 29.2%;
+    --twc-invoice-header: 212 17.2% 17.1%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 212 17.2% 17.1%;
+    --twc-menu: 212 17.2% 17.1%;
+    --twc-menu-background: 210 33.3% 9.4%;
+    --twc-menu-link: 0 0% 100%;
+    --twc-mobile-background: 210 33.3% 9.4%;
+    --twc-mobile-forecolor: 0 0% 100%;
+    --twc-mobile-menu: 212 17.2% 17.1%;
+    --twc-mobile-overlay: 212 17.2% 17.1%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 212 17.2% 17.1%;
+    --twc-primary: 277.20000000000005 57.8% 43.7%;
+    --twc-primary-dimmed: 266.20000000000005 97.4% 70%;
+    --twc-quicklist: 0 0% 100%;
+    --twc-return: 0 0% 100%;
+    --twc-row: 0 0% 100%;
+    --twc-search: 0 0% 11.4%;
+    --twc-search-event: 0 0% 100%;
+    --twc-search-forecolor: 0 0% 100%;
+    --twc-search-title: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 100%;
+    --twc-shoppingcart: 0 0% 7.5%;
+    --twc-shoppingcart-forecolor: 0 0% 100%;
+    --twc-shoppingcart-secondary: 0 0% 100%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 0%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-voetbalzone,[data-theme=voetbalzone] {
+    --twc-always-dark: 228 7.5% 13.1%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 0 0% 100%;
+    --twc-basketcount-background: 228 7.5% 13.1%;
+    --twc-basketcount-text: 0 0% 100%;
+    --twc-alternate-background: 0 0% 95.3%;
+    --twc-background: 0 0% 95.3%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 95.3%;
+    --twc-brand-button: 79.30000000000001 100% 59.2%;
+    --twc-brand-info: 79.30000000000001 100% 59.2%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 228 7.5% 13.1%;
+    --twc-btn-forecolor: 228 7.5% 13.1%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 98%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 0 0% 27.1%;
+    --twc-dark-background: 0 0% 95.3%;
+    --twc-datebox: 79.30000000000001 100% 59.2%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 83.1%;
+    --twc-event-table: 0 0% 100%;
+    --twc-filter: 228 7.5% 13.1%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 228 7.5% 13.1%;
+    --twc-focus: 60 3.6% 11%;
+    --twc-footer: 228 7.5% 13.1%;
+    --twc-footer-forecolor: 0 0% 100%;
+    --twc-forecolor: 228 7.5% 13.1%;
+    --twc-forecolor-dark: 228 7.5% 13.1%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 79.30000000000001 100% 59.2%;
+    --twc-header-icon: 60 3.6% 11%;
+    --twc-header-border: 60 3.6% 11%;
+    --twc-highlight: 0 0% 100%;
+    --twc-home-datebox: 0 0% 79.6%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 0 0% 82.7%;
+    --twc-inactive: 0 0% 82.4%;
+    --twc-invoice-header: 0 0% 100%;
+    --twc-link-color: 60 3.6% 11%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 95.3%;
+    --twc-menu-link: 60 3.6% 11%;
+    --twc-menu-background: 0 0% 95.3%;
+    --twc-mobile-background: 0 0% 100%;
+    --twc-mobile-forecolor: 0 0% 100%;
+    --twc-mobile-menu: 0 0% 100%;
+    --twc-mobile-overlay: 0 0% 100%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 95.3%;
+    --twc-primary: 79.30000000000001 100% 59.2%;
+    --twc-primary-dimmed: 81.89999999999998 48.7% 37.5%;
+    --twc-quicklist: 60 3.6% 11%;
+    --twc-return: 228 7.5% 13.1%;
+    --twc-row: 60 3.6% 11%;
+    --twc-search: 210 33.3% 9.4%;
+    --twc-search-event: 210 33.3% 9.4%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 228 7.5% 13.1%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 38.4%;
+    --twc-shoppingcart: 0 0% 7.5%;
+    --twc-shoppingcart-forecolor: 228 7.5% 13.1%;
+    --twc-shoppingcart-secondary: 0 0% 93.7%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 100%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-gpfans,[data-theme=gpfans] {
+    --twc-always-dark: 228 7.5% 13.1%;
+    --twc-filter-btn: 0 0% 94.5%;
+    --twc-alternate: 228 7.5% 13.1%;
+    --twc-alternate-background: 0 0% 28.2%;
+    --twc-basketcount-background: 356.20000000000005 88.8% 45.7%;
+    --twc-basketcount-text: 228 7.5% 13.1%;
+    --twc-background: 0 0% 94.5%;
+    --twc-background-row: 0 0% 94.5%;
+    --twc-brand-button: 356.20000000000005 88.8% 45.7%;
+    --twc-brand-info: 356.20000000000005 88.8% 45.7%;
+    --twc-brand-text: 0 0% 100%;
+    --twc-breadcrumb: 228 7.5% 13.1%;
+    --twc-box: 0 0% 92.5%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-cart-info: 8.199999999999989 47.8% 91%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 98%;
+    --twc-checkout-dark: 0 0% 28.2%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 0 0% 94.5%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 49%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 228 7.5% 13.1%;
+    --twc-focus: 220 8.9% 46.1%;
+    --twc-forecolor: 228 7.5% 13.1%;
+    --twc-footer: 228 7.5% 13.1%;
+    --twc-footer-forecolor: 0 0% 100%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 228 7.5% 13.1%;
+    --twc-header-icon: 0 0% 100%;
+    --twc-highlight: 0 0% 100%;
+    --twc-header-border: 356.20000000000005 88.8% 45.7%;
+    --twc-home-datebox: 0 0% 92.5%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 0 0% 82.7%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 14.9%;
+    --twc-map: 0 0% 94.5%;
+    --twc-menu: 228 7.5% 13.1%;
+    --twc-menu-background: 228 7.5% 13.1%;
+    --twc-menu-link: 0 0% 100%;
+    --twc-mobile-background: 0 0% 98%;
+    --twc-mobile-forecolor: 0 0% 14.9%;
+    --twc-mobile-menu: 0 0% 100%;
+    --twc-mobile-overlay: 0 0% 100%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 228 7.5% 13.1%;
+    --twc-primary: 356.20000000000005 88.8% 45.7%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 228 7.5% 13.1%;
+    --twc-return: 0 0% 100%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 228 7.5% 13.1%;
+    --twc-search-event: 228 7.5% 13.1%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 228 7.5% 13.1%;
+    --twc-search-item: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 9%;
+    --twc-shoppingcart: 0 0% 14.9%;
+    --twc-shoppingcart-forecolor: 228 7.5% 13.1%;
+    --twc-shoppingcart-secondary: 0 0% 100%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 100%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-sporttravel,[data-theme=sporttravel] {
+    --twc-always-dark: 210 33.3% 9.4%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 156.39999999999998 20.8% 31.2%;
+    --twc-alternate-background: 210 33.3% 9.4%;
+    --twc-basketcount-background: 156 57.3% 74.3%;
+    --twc-basketcount-text: 0 0% 14.9%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 89%;
+    --twc-brand-button: 156 57.3% 74.3%;
+    --twc-brand-info: 156 57.3% 74.3%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 14.9%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 96.9%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 0 0% 14.9%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 58.8%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 14.9%;
+    --twc-footer: 0 0% 100%;
+    --twc-footer-forecolor: 0 0% 14.9%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 0 0% 100%;
+    --twc-header-icon: 0 0% 14.9%;
+    --twc-header-border: 156 57.3% 74.3%;
+    --twc-highlight: 0 0% 0%;
+    --twc-home-datebox: 0 0% 96.9%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 269.20000000000005 97.4% 85.1%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 100%;
+    --twc-menu-background: 0 0% 100%;
+    --twc-menu-link: 0 0% 14.9%;
+    --twc-mobile-background: 0 0% 89.8%;
+    --twc-mobile-forecolor: 0 0% 14.9%;
+    --twc-mobile-menu: 0 0% 98%;
+    --twc-mobile-overlay: 0 0% 96.9%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 100%;
+    --twc-primary: 156 57.3% 74.3%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 0 0% 100%;
+    --twc-return: 0 0% 14.9%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 0 0% 100%;
+    --twc-search-event: 0 0% 14.9%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-mobile-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 0 0% 14.9%;
+    --twc-secondary: 0 0% 7.5%;
+    --twc-shoppingcart: 0 0% 100%;
+    --twc-shoppingcart-forecolor: 0 0% 14.9%;
+    --twc-shoppingcart-secondary: 0 0% 14.9%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 93.3%;
+    --twc-popular-upcoming-forecolor: 0 0% 14.9%
+}
+
+.theme-fcupdate,[data-theme=fcupdate] {
+    --twc-always-dark: 211.20000000000005 53.2% 9.2%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 211.20000000000005 53.2% 9.2%;
+    --twc-alternate-background: 210 30.2% 20.8%;
+    --twc-basketcount-background: 99.10000000000002 78.8% 37.1%;
+    --twc-basketcount-text: 0 0% 14.9%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 92.5%;
+    --twc-brand-button: 99.10000000000002 78.8% 37.1%;
+    --twc-brand-info: 97.80000000000001 100% 94.7%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 180 5.3% 96.3%;
+    --twc-checkout-dark: 99.10000000000002 78.8% 37.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 0 0% 14.9%;
+    --twc-dark-background: 0 0% 93.7%;
+    --twc-datebox: 228 7.5% 13.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 207.29999999999995 4.4% 51.2%;
+    --twc-filter: 228 7.5% 13.1%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 100%;
+    --twc-footer: 180 5.3% 96.3%;
+    --twc-footer-forecolor: 211.20000000000005 53.2% 9.2%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-forecolor-dark: 0 0% 14.9%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 211.20000000000005 53.2% 9.2%;
+    --twc-header-icon: 0 0% 100%;
+    --twc-highlight: 0 0% 100%;
+    --twc-header-border: 99.10000000000002 78.8% 37.1%;
+    --twc-home-datebox: 0 0% 88.2%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 0 0% 91%;
+    --twc-inactive: 0 0% 82.4%;
+    --twc-invoice-header: 0 0% 82.4%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 211.20000000000005 53.2% 9.2%;
+    --twc-menu: 211.20000000000005 53.2% 9.2%;
+    --twc-menu-link: 0 0% 100%;
+    --twc-menu-background: 211.20000000000005 53.2% 9.2%;
+    --twc-mobile-background: 0 0% 100%;
+    --twc-mobile-forecolor: 0 0% 100%;
+    --twc-mobile-menu: 211.39999999999998 28% 14.7%;
+    --twc-mobile-overlay: 0 0% 82.7%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 60 3.6% 11%;
+    --twc-primary: 99.10000000000002 78.8% 37.1%;
+    --twc-primary-dimmed: 81.89999999999998 48.7% 37.5%;
+    --twc-quicklist: 210 56.5% 9%;
+    --twc-return: 0 0% 100%;
+    --twc-row: 0 0% 100%;
+    --twc-search: 210 33.3% 9.4%;
+    --twc-search-event: 0 0% 100%;
+    --twc-search-forecolor: 0 0% 100%;
+    --twc-search-title: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 14.9%;
+    --twc-septenary: 0 0% 14.9%;
+    --twc-shoppingcart: 0 0% 7.5%;
+    --twc-shoppingcart-forecolor: 0 0% 100%;
+    --twc-shoppingcart-secondary: 0 0% 93.7%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 211.20000000000005 53.2% 9.2%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-motor,[data-theme=motor] {
+    --twc-always-dark: 0 0% 11.8%;
+    --twc-filter-btn: 0 0% 20%;
+    --twc-alternate: 0 0% 20%;
+    --twc-alternate-background: 0 0% 11.8%;
+    --twc-basketcount-background: 24 100% 50%;
+    --twc-basketcount-text: 0 0% 11.8%;
+    --twc-background: 0 0% 11.8%;
+    --twc-background-row: 0 0% 20%;
+    --twc-box: 0 0% 20%;
+    --twc-brand-button: 24 100% 50%;
+    --twc-brand-info: 156 57.3% 74.3%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 100%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 11.8%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 0 0% 100%;
+    --twc-dark-background: 0 0% 11.8%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 58.8%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 20%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 100%;
+    --twc-footer: 0 0% 11.8%;
+    --twc-footer-forecolor: 0 0% 100%;
+    --twc-forecolor: 0 0% 100%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 0 0% 11.8%;
+    --twc-header-icon: 0 0% 100%;
+    --twc-highlight: 0 0% 100%;
+    --twc-home-datebox: 0 0% 11.8%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 24 100% 50%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 11.8%;
+    --twc-menu-background: 0 0% 11.8%;
+    --twc-menu-link: 0 0% 100%;
+    --twc-mobile-background: 0 0% 11.8%;
+    --twc-mobile-forecolor: 0 0% 11.8%;
+    --twc-mobile-menu: 0 0% 11.8%;
+    --twc-mobile-overlay: 0 0% 20%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 11.8%;
+    --twc-primary: 24 100% 50%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 0 0% 100%;
+    --twc-return: 0 0% 11.8%;
+    --twc-row: 0 0% 100%;
+    --twc-search: 0 0% 20%;
+    --twc-search-event: 0 0% 11.8%;
+    --twc-search-forecolor: 0 0% 100%;
+    --twc-search-title: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 100%;
+    --twc-shoppingcart: 0 0% 11.8%;
+    --twc-shoppingcart-forecolor: 0 0% 11.8%;
+    --twc-shoppingcart-secondary: 0 0% 11.8%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 11.8%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 20%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-racesport,[data-theme=racesport] {
+    --twc-always-dark: 210 30.2% 20.8%;
+    --twc-alternate: 211.20000000000005 53.2% 9.2%;
+    --twc-alternate-background: 210 30.2% 20.8%;
+    --twc-basketcount-background: 24 100% 50%;
+    --twc-basketcount-text: 0 0% 100%;
+    --twc-background: 0 0% 100%;
+    --twc-box: 0 0% 92.5%;
+    --twc-brand-button: 19.100000000000023 100% 50%;
+    --twc-brand-info: 97.80000000000001 100% 94.7%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 180 5.3% 96.3%;
+    --twc-checkout-dark: 99.10000000000002 78.8% 37.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 0 0% 14.9%;
+    --twc-dark-background: 0 0% 100%;
+    --twc-datebox: 19.100000000000023 100% 50%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 14.9%;
+    --twc-filter: 228 7.5% 13.1%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 14.9%;
+    --twc-footer: 0 0% 100%;
+    --twc-footer-forecolor: 0 0% 14.9%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-forecolor-dark: 0 0% 14.9%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 198.39999999999998 100% 43.5%;
+    --twc-header-border: 19.100000000000023 100% 50%;
+    --twc-header-icon: 0 0% 100%;
+    --twc-highlight: 0 0% 100%;
+    --twc-home-datebox: 0 0% 88.2%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 198.39999999999998 100% 43.5%;
+    --twc-inactive: 0 0% 82.4%;
+    --twc-invoice-header: 0 0% 82.4%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 211.20000000000005 53.2% 9.2%;
+    --twc-menu: 198.39999999999998 100% 43.5%;
+    --twc-menu-link: 0 0% 100%;
+    --twc-menu-background: 198.39999999999998 100% 43.5%;
+    --twc-mobile-background: 0 0% 100%;
+    --twc-mobile-forecolor: 0 0% 100%;
+    --twc-mobile-menu: 211.39999999999998 28% 14.7%;
+    --twc-mobile-overlay: 0 0% 82.7%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 60 3.6% 11%;
+    --twc-primary: 19.100000000000023 100% 50%;
+    --twc-primary-dimmed: 19.100000000000023 100% 50%;
+    --twc-quicklist: 210 56.5% 9%;
+    --twc-return: 0 0% 100%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 210 33.3% 9.4%;
+    --twc-search-event: 0 0% 100%;
+    --twc-search-forecolor: 0 0% 100%;
+    --twc-search-title: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 100%;
+    --twc-secondary: 0 0% 14.9%;
+    --twc-septenary: 0 0% 14.9%;
+    --twc-shoppingcart: 0 0% 7.5%;
+    --twc-shoppingcart-forecolor: 0 0% 100%;
+    --twc-shoppingcart-secondary: 0 0% 93.7%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 89.8%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-helden,[data-theme=helden] {
+    --twc-always-dark: 325.20000000000005 36.2% 27.1%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 0 0% 100%;
+    --twc-alternate-background: 0 0% 100%;
+    --twc-basketcount-background: 323.70000000000005 95.6% 64.7%;
+    --twc-basketcount-text: 0 0% 100%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 93.7%;
+    --twc-brand-button: 325.20000000000005 36.2% 27.1%;
+    --twc-brand-info: 0 0% 100%;
+    --twc-brand-text: 0 0% 100%;
+    --twc-breadcrumb: 0 0% 100%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 0% 100%;
+    --twc-checkout: 0 0% 100%;
+    --twc-checkout-dark: 0 0% 100%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 0 0% 0%;
+    --twc-dark-background: 0 0% 100%;
+    --twc-datebox: 0 0% 100%;
+    --twc-disabled: 0 0% 93.7%;
+    --twc-dimmed: 189.39999999999998 100% 50%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 100%;
+    --twc-focus: 0 0% 0%;
+    --twc-footer: 0 0% 100%;
+    --twc-footer-forecolor: 0 0% 0%;
+    --twc-forecolor: 0 0% 0%;
+    --twc-forecolor-color: 0 0% 100%;
+    --twc-general-admission: 0 0% 100%;
+    --twc-grandstand: 0 0% 100%;
+    --twc-header: 0 0% 100%;
+    --twc-header-icon: 323.70000000000005 95.6% 64.7%;
+    --twc-header-border: 325.20000000000005 36.2% 27.1%;
+    --twc-home-datebox: 0 0% 100%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 189.39999999999998 100% 50%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 100%;
+    --twc-menu-background: 0 0% 100%;
+    --twc-menu-link: 0 0% 0%;
+    --twc-mobile-background: 0 0% 100%;
+    --twc-mobile-forecolor: 0 0% 100%;
+    --twc-mobile-menu: 0 0% 100%;
+    --twc-mobile-overlay: 0 0% 100%;
+    --twc-not-soccerfield: 0 0% 100%;
+    --twc-popup: 0 0% 100%;
+    --twc-primary: 325.20000000000005 36.2% 27.1%;
+    --twc-primary-dimmed: 323.70000000000005 95.6% 64.7%;
+    --twc-quicklist: 0 0% 0%;
+    --twc-return: 0 0% 100%;
+    --twc-row: 0 0% 0%;
+    --twc-search: 0 0% 100%;
+    --twc-search-event: 0 0% 100%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 0 0% 100%;
+    --twc-mobile-search-forecolor: 0 0% 14.9%;
+    --twc-secondary: 0 0% 0%;
+    --twc-shoppingcart: 0 0% 100%;
+    --twc-shoppingcart-forecolor: 0 0% 0%;
+    --twc-shoppingcart-secondary: 0 0% 0%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 11.8%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 0 0% 100%;
+    --twc-table: 0 0% 100%;
+    --twc-popular-upcoming-forecolor: 0 0% 100%
+}
+
+.theme-homefans,[data-theme=homefans] {
+    --twc-always-dark: 217.79999999999995 46.9% 19.2%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 203.20000000000005 93.9% 93.5%;
+    --twc-alternate-background: 203.20000000000005 93.9% 93.5%;
+    --twc-basketcount-background: 217.79999999999995 46.9% 19.2%;
+    --twc-basketcount-text: 0 0% 100%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 221.5 56.5% 95.5%;
+    --twc-brand-button: 104.30000000000001 54.5% 48.2%;
+    --twc-brand-info: 203.20000000000005 93.9% 93.5%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 100%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 100%;
+    --twc-checkout-dark: 221.5 56.5% 95.5%;
+    --twc-checkout-forecolor: 228 7.5% 13.1%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 0 0% 100%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 58.8%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 14.9%;
+    --twc-footer: 215 100% 97.6%;
+    --twc-footer-forecolor: 0 0% 14.9%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-forecolor-color: 0 0% 100%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 215 100% 97.6%;
+    --twc-header-icon: 0 0% 14.9%;
+    --twc-header-border: 217.79999999999995 46.9% 19.2%;
+    --twc-highlight: 0 0% 100%;
+    --twc-home-datebox: 0 0% 96.9%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 215 100% 97.6%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 217.79999999999995 46.9% 19.2%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 100%;
+    --twc-menu-background: 0 0% 100%;
+    --twc-menu-link: 0 0% 14.9%;
+    --twc-mobile-background: 0 0% 89.8%;
+    --twc-mobile-forecolor: 0 0% 14.9%;
+    --twc-mobile-menu: 0 0% 98%;
+    --twc-mobile-overlay: 221.5 56.5% 95.5%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 100%;
+    --twc-primary: 217.79999999999995 46.9% 19.2%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 0 0% 14.9%;
+    --twc-return: 0 0% 14.9%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 0 0% 100%;
+    --twc-search-event: 0 0% 14.9%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 0 0% 14.9%;
+    --twc-secondary: 0 0% 7.5%;
+    --twc-shoppingcart: 0 0% 100%;
+    --twc-shoppingcart-forecolor: 0 0% 14.9%;
+    --twc-shoppingcart-secondary: 0 0% 14.9%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 215 100% 97.6%;
+    --twc-popular-upcoming-forecolor: 0 0% 14.9%
+}
+
+.theme-demoshop,[data-theme=demoshop] {
+    --twc-always-dark: 210 33.3% 9.4%;
+    --twc-filter-btn: 0 0% 100%;
+    --twc-alternate: 156.39999999999998 20.8% 31.2%;
+    --twc-alternate-background: 210 33.3% 9.4%;
+    --twc-basketcount-background: 156 57.3% 74.3%;
+    --twc-basketcount-text: 0 0% 14.9%;
+    --twc-background: 0 0% 100%;
+    --twc-background-row: 0 0% 100%;
+    --twc-box: 0 0% 89%;
+    --twc-brand-button: 156 57.3% 74.3%;
+    --twc-brand-info: 156 57.3% 74.3%;
+    --twc-brand-text: 0 0% 14.9%;
+    --twc-breadcrumb: 0 0% 14.9%;
+    --twc-btn-forecolor: 0 0% 14.9%;
+    --twc-card-forecolor: 0 0% 100%;
+    --twc-cart-red: 0 100% 62.9%;
+    --twc-checkout: 0 0% 96.9%;
+    --twc-checkout-dark: 228 7.5% 13.1%;
+    --twc-checkout-forecolor: 0 0% 100%;
+    --twc-checkout-info: 228 7.5% 13.1%;
+    --twc-dark-background: 0 0% 14.9%;
+    --twc-datebox: 0 0% 45.1%;
+    --twc-disabled: 0 0% 82.7%;
+    --twc-dimmed: 0 0% 58.8%;
+    --twc-filter: 0 0% 100%;
+    --twc-filter-forecolor: 0 0% 100%;
+    --twc-filter-item: 0 0% 14.9%;
+    --twc-focus: 0 0% 14.9%;
+    --twc-footer: 0 0% 100%;
+    --twc-footer-forecolor: 0 0% 14.9%;
+    --twc-forecolor: 0 0% 14.9%;
+    --twc-general-admission: 24 5.7% 82.9%;
+    --twc-grandstand: 25 5.3% 44.7%;
+    --twc-header: 0 0% 100%;
+    --twc-header-icon: 0 0% 14.9%;
+    --twc-header-border: 156 57.3% 74.3%;
+    --twc-highlight: 0 0% 0%;
+    --twc-home-datebox: 0 0% 96.9%;
+    --twc-hyperlink: 0 0% 100%;
+    --twc-info: 269.20000000000005 97.4% 85.1%;
+    --twc-inactive: 0 0% 96.1%;
+    --twc-invoice-header: 0 0% 82.7%;
+    --twc-link-color: 0 0% 100%;
+    --twc-link-emphasis: 0 0% 100%;
+    --twc-map: 0 0% 100%;
+    --twc-menu: 0 0% 100%;
+    --twc-menu-background: 0 0% 100%;
+    --twc-menu-link: 0 0% 14.9%;
+    --twc-mobile-background: 0 0% 89.8%;
+    --twc-mobile-forecolor: 0 0% 14.9%;
+    --twc-mobile-menu: 0 0% 98%;
+    --twc-mobile-overlay: 0 0% 96.9%;
+    --twc-not-soccerfield: 24 5.7% 82.9%;
+    --twc-popup: 0 0% 100%;
+    --twc-primary: 156 57.3% 74.3%;
+    --twc-primary-dimmed: 0 0% 63.9%;
+    --twc-quicklist: 0 0% 100%;
+    --twc-return: 0 0% 14.9%;
+    --twc-row: 0 0% 14.9%;
+    --twc-search: 0 0% 100%;
+    --twc-search-event: 0 0% 14.9%;
+    --twc-search-forecolor: 0 0% 14.9%;
+    --twc-mobile-search-forecolor: 0 0% 14.9%;
+    --twc-search-title: 0 0% 14.9%;
+    --twc-secondary: 0 0% 7.5%;
+    --twc-shoppingcart: 0 0% 100%;
+    --twc-shoppingcart-forecolor: 0 0% 14.9%;
+    --twc-shoppingcart-secondary: 0 0% 14.9%;
+    --twc-shoppingcart-mobile-forecolor: 0 0% 100%;
+    --twc-soccerfield: 161.39999999999998 93.5% 30.4%;
+    --twc-suite: 43.30000000000001 96.4% 56.3%;
+    --twc-table: 0 0% 93.3%;
+    --twc-popular-upcoming-forecolor: 0 0% 14.9%
+}
+
+#venue-map svg,#venue-map-m svg {
+    width: 100%
+}
+
+#venue-map .track-border,#venue-map-m .track-border{
+    fill: none;
+    stroke: #737373;
+    stroke-width: 25.4px;
+    stroke-linejoin: round
+}
+
+#venue-map .track-overlay,#venue-map-m .track-overlay{
+    fill: none;
+    stroke: #fff;
+    stroke-width: 17.72px;
+    stroke-linejoin: round
+}
+
+#venue-map .track-drive,#venue-map-m .track-drive {
+    fill: none;
+    stroke: #171717;
+    stroke-width: 12.72px;
+    stroke-linejoin: round
+}
+
+#venue-map .soccerfield,#venue-map-m .soccerfield{
+    fill: hsl(var(--twc-soccerfield) / var(--twc-soccerfield-opacity, 1)) !important;
+    stroke: hsl(var(--twc-soccerfield) / var(--twc-soccerfield-opacity, 1))!important
+}
+
+#venue-map .suite-legend,#venue-map .suite,#venue-map-m .suite-legend,#venue-map-m .suite {
+    fill: hsl(var(--twc-suite) / var(--twc-suite-opacity, 1));
+    stroke: none
+}
+
+#venue-map .general-admission-legend,#venue-map .general-admission,#venue-map-m .general-admission-legend,#venue-map-m .general-admission  {
+    fill: hsl(var(--twc-general-admission) / var(--twc-general-admission-opacity, 1));
+    stroke: hsl(var(--twc-grandstand) / var(--twc-grandstand-opacity, 1))
+}
+
+#venue-map .unavailable-legend,#venue-map .unavailable,#venue-map-m .unavailable-legend,#venue-map-m .unavailable {
+    fill: #d6d3d1;
+    stroke: #fff
+}
+
+#venue-map .curve-red,#venue-map-m .curve-red {
+    fill: red
+}
+
+#venue-map .curve-grey,#venue-map-m .curve-grey {
+    fill: #ddd
+}
+
+#venue-map .flag-white,#venue-map .starting-grid,#venue-map-m .flag-white,#venue-map-m .starting-grid {
+    fill: #fff
+}
+
+#venue-map .drive-arrow,#venue-map-m .drive-arrow  {
+    fill: #fcd34d
+}
+
+#-venue-map .labels-logo {
+    display: none
+}
+
+#-venue-map text {
+    display: none
+}
+
+#venue-map .labels-legend,#venue-map-m .labels-legend {
+    display: inline;
+    font-size: 26px
+}
+
+#venue-map .active,#venue-map-m .active {
+    fill: hsl(var(--twc-primary) / var(--twc-primary-opacity, 1))!important;
+    stroke: hsl(var(--twc-alternate) / var(--twc-alternate-opacity, 1))!important
+}
+
+#venue-map .svg-background,#venue-map-m .svg-background {
+    fill: none
+}
+
+#venue-map .labels-logo,#venue-map-m .labels-logo {
+    display: none
+}
+
+.v-enter-active[data-v-f555924e],.v-leave-active[data-v-f555924e] {
+    transition: all .25s ease
+}
+
+.v-enter-from[data-v-f555924e],.v-leave-to[data-v-f555924e] {
+    opacity: 0;
+    transform: scale(.95)
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    display: inline-block;
+    bottom: 100%;
+    left: 50%;
+    background: #000c;
+    transform: translate(-50%,-35px)
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible
+}
+
+.tooltip .tooltiptext:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-5px);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000c transparent transparent transparent
+}
+
+.v-enter-active[data-v-2431a8c6],.v-leave-active[data-v-2431a8c6] {
+    transition: all 50ms ease
+}
+
+.v-enter-from[data-v-2431a8c6],.v-leave-to[data-v-2431a8c6] {
+    opacity: 0;
+    transform: translateY(-10px)
+}
+
+.v-enter-active[data-v-c4f899ef],.v-leave-active[data-v-c4f899ef] {
+    transition: all 50ms ease
+}
+
+.v-enter-from[data-v-c4f899ef],.v-leave-to[data-v-c4f899ef] {
+    opacity: 0;
+    transform: translateY(-10px)
+}
+
+.MethodDisabled {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    border-radius: .75rem;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--twc-box) / var(--twc-box-opacity, var(--tw-bg-opacity)));
+    padding: 1rem;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)));
+    opacity: .3
+}
+
+.MethodDisabled .MethodTitle {
+    padding: .25rem;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.MethodDisabled .MethodDescription {
+    flex-grow: 1;
+    padding: .25rem
+}
+
+.Method {
+    position: relative;
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+    flex-direction: column;
+    border-radius: .75rem;
+    border-width: 1px;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--twc-box) / var(--twc-box-opacity, var(--tw-bg-opacity)));
+    padding: .5rem;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)))
+}
+
+.Method:hover {
+    --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);
+    --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)
+}
+
+.Method.isChecked {
+    outline-style: solid;
+    outline-width: 1px
+}
+
+.Method .CheckCircle {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)))
+}
+
+.Method .MethodTitle {
+    padding: .25rem;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.Method .MethodDescription {
+    flex-grow: 1;
+    padding: .25rem;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)))
+}
+
+.MethodInfo {
+    display: flex;
+    justify-content: space-between
+}
+
+.MethodFee {
+    flex-grow: 1;
+    padding: .25rem;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)))
+}
+
+.MethodIsInstant {
+    border-radius: .25rem;
+    --tw-bg-opacity: 1;
+    background-color: hsl(var(--twc-primary) / var(--twc-primary-opacity, var(--tw-bg-opacity)));
+    padding: .25rem .5rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: hsl(var(--twc-forecolor) / var(--twc-forecolor-opacity, var(--tw-text-opacity)))
+}
+
+.logo[data-v-177f69f8] {
+    height: 30px
+}
+
+.v-enter-active[data-v-f4c0e8ce],.v-leave-active[data-v-f4c0e8ce] {
+    transition: opacity .25s ease
+}
+
+.v-enter-from[data-v-f4c0e8ce],.v-leave-to[data-v-f4c0e8ce] {
+    opacity: 0
+}
+
+.logo[data-v-1cd5d77e] {
+    min-height: 40px
+}
+
+@media screen and (max-width: 1027px) {
+    .logo[data-v-1cd5d77e] {
+        min-height:30px
+    }
+}
+
+ul[data-v-4bbec797] {
+    list-style-type: circle;
+    padding: 0 18px
+}
+
+h3[data-v-4bbec797] {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 20px 0
+}
+
+table[data-v-4bbec797] {
+    border-collapse: collapse;
+    width: 100%
+}
+
+th[data-v-4bbec797],td[data-v-4bbec797] {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left
+}
+
+th[data-v-4bbec797] {
+    background-color: #f2f2f2
+}
+
+ul[data-v-8afab9b4] {
+    list-style-type: circle;
+    padding: 0 18px
+}
+
+h3[data-v-8afab9b4] {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 20px 0
+}
+
+table[data-v-8afab9b4] {
+    border-collapse: collapse;
+    margin: 30px 0 10px
+}
+
+th[data-v-8afab9b4],td[data-v-8afab9b4] {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left
+}
+
+th[data-v-8afab9b4] {
+    background-color: #f2f2f2
+}
+
+.logo[data-v-db75faec] {
+    height: 30px
+}
+
+.v-enter-active[data-v-24b47f20],.v-leave-active[data-v-24b47f20] {
+    transition: opacity .25s ease
+}
+
+.v-enter-from[data-v-24b47f20],.v-leave-to[data-v-24b47f20] {
+    opacity: 0
+}
+
+.v-enter-active[data-v-f6facecf],.v-leave-active[data-v-f6facecf] {
+    transition: opacity .25s ease
+}
+
+.v-enter-from[data-v-f6facecf],.v-leave-to[data-v-f6facecf] {
+    opacity: 0
+}
+
+.disabled[data-v-00ef21f8] {
+    opacity: .3
+}
+
+.v-enter-active[data-v-210a9dd5],.v-leave-active[data-v-210a9dd5] {
+    transition: all 50ms ease
+}
+
+.v-enter-from[data-v-210a9dd5],.v-leave-to[data-v-210a9dd5] {
+    opacity: 0;
+    transform: translateY(-10px)
+}
+
+.carousel-item {
+    float: left;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 400px;
+    margin-right: -100%;
+    backface-visibility: hidden
+}
+
+.carousel-item.active {
+    left: 0
+}
+
+button[data-v-35474e81]:disabled {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.unbranded[data-v-fbb26e2a] {
+    top: 58px
+}
+
+ul.countrylst li[data-v-3793f0f7]:nth-child(n+6) {
+    display: none
+}
+
+ul.tournamentlst li[data-v-3793f0f7]:nth-child(n+6) {
+    display: none
+}
+
+ul.citieslst li[data-v-3793f0f7]:nth-child(n+6) {
+    display: none
+}
+
+ul.teamslst li[data-v-3793f0f7]:nth-child(n+6) {
+    display: none
+}
+
+#search::placeholder {
+    color: #000
+}
+
+.blurry {
+    background: #fff3;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 11
+}
+
+#ticket-venue-map svg {
+    width: 100%
+}
+
+#ticket-venue-map .track-border {
+    fill: none;
+    stroke: #737373;
+    stroke-width: 25.4px;
+    stroke-linejoin: round
+}
+
+#ticket-venue-map .track-overlay {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 17.72px;
+    stroke-linejoin: round
+}
+
+#ticket-venue-map .track-drive {
+    fill: none;
+    stroke: #171717;
+    stroke-width: 12.72px;
+    stroke-linejoin: round
+}
+
+#ticket-venue-map .soccerfield {
+    fill: hsl(var(--twc-soccerfield) / var(--twc-soccerfield-opacity, 1))!important;
+    stroke: hsl(var(--twc-soccerfield) / var(--twc-soccerfield-opacity, 1))!important
+}
+
+#ticket-venue-map .grandstand-legend,#ticket-venue-map .grandstand {
+    fill: hsl(var(--twc-disabled) / .25);
+    stroke: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1))
+}
+
+#ticket-venue-map .suite-legend,#ticket-venue-map .suite {
+    fill: hsl(var(--twc-disabled) / .5);
+    stroke: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1))
+}
+
+#ticket-venue-map .general-admission-legend,#ticket-venue-map .general-admission {
+    fill: none;
+    stroke: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1))
+}
+
+#ticket-venue-map .unavailable-legend,#ticket-venue-map .unavailable {
+    fill: #d6d3d1;
+    stroke: #fff
+}
+
+#ticket-venue-map .curve-red {
+    fill: red
+}
+
+#ticket-venue-map .curve-grey {
+    fill: #ddd
+}
+
+#ticket-venue-map .flag-white,#ticket-venue-map .starting-grid {
+    fill: #fff
+}
+
+#ticket-venue-map .drive-arrow {
+    fill: #fcd34d
+}
+
+#-ticket-venue-map .labels-logo {
+    display: none
+}
+
+#-ticket-venue-map text {
+    display: none
+}
+
+#ticket-venue-map .labels-legend {
+    display: inline;
+    font-size: 26px
+}
+
+#ticket-venue-map .active {
+    fill: hsl(var(--twc-primary) / var(--twc-primary-opacity, 1))!important;
+    stroke: hsl(var(--twc-alternate) / var(--twc-alternate-opacity, 1))!important
+}
+
+#ticket-venue-map .svg-background {
+    fill: none
+}
+
+#ticket-venue-map .labels-logo {
+    display: none
+}
+
+#ticket-venue-map .labels {
+    fill: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1))
+}
+
+.nosale {
+    fill: hsl(var(--twc-grandstand) / var(--twc-grandstand-opacity, 1))!important;
+    stroke: hsl(var(--twc-grandstand) / var(--twc-grandstand-opacity, 1))!important;
+}
+
+#venue-map .grandstand-legend,#venue-map .grandstand {
+    
+	fill: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1));
+	stroke: none
+}
+#venue-map-m .grandstand-legend,#venue-map-m .grandstand {
+    
+	fill: hsl(var(--twc-disabled) / var(--twc-disabled-opacity, 1));
+	stroke: none
+}
