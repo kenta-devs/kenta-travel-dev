@@ -338,19 +338,80 @@
 										</div>
 										<div class="info wallet">
 											<div class="p" style="color: rgb(0, 188, 147);">
-												<img class="l" src="~assets/images/icon/info-feature.png" />
+												<el-tooltip :offset="-35" hide-after="10000" effect="dark"
+													placement="top-end">
+													<template #content>
+														<div class="tooltip-li">
+															<p class="title">מדיניות ביטולים</p>
+															<div
+																style="border-right: 2px solid rgba(0, 188, 147, 1);margin-top: 0.08rem;">
+																<p class="text" style="padding-right: 8px;">
+																	{{item2.free_cancellation_before}}
+																</p>
+																<!-- <p class="text" style="padding-right: 8px;">
+																	01:00*
+																</p> -->
+															</div>
+														</div>
+														<div class="tooltip-li" style="margin-top: 0.12rem;"
+															v-if="item2.no_cangellation_before">
+															<div style="border-right: 2px solid rgba(255, 50, 99, 1);">
+																<p class="text" style="padding-right: 8px;">
+																	{{item2.no_cangellation_before}}
+																</p>
+																<!-- <p class="text" style="padding-right: 8px;">
+																	מבוטלת לאחר 12 בפברואר 2025 בשעה 01:00*
+																</p> -->
+															</div>
+															<!-- <p class="text" style="padding-right: 8px; margin-top: 0.12rem;">
+																*הזמן המקומי שלך (UTC +01:00)
+															</p> -->
+														</div>
+													</template>
+													<img class="l" src="~assets/images/icon/info-feature.png" />
+												</el-tooltip>
+
 												{{item2.free_cancellation_before}}
 												<img class="r" src="~assets/images/icon/icon.png" />
 											</div>
 											<div class="p">
-												<img class="l" src="~assets/images/icon/info-feature.png" />
+												<el-tooltip :offset="-35" hide-after="10000" effect="dark"
+													placement="top-end">
+													<template #content>
+														<div class="tooltip-li">
+															<p class="title">מדיניות תשלום</p>
+															<p class="text">תצטרך לשלם את מלוא הכרטיס שלך בעת ביצוע
+																ההזמנה.</p>
+														</div>
+														<div class="tooltip-li" style="padding-top: 0.12rem;">
+															<p class="title">העברה בנקאית</p>
+															<p class="text">אם ברצונך לשלם הזמנה באמצעות העברה בנקאית
+															</p>
+															<p class="text">כישות, אנא שלח דוא"ל לכתוב</p>
+															<p class="text">corporate@roundtrip.travel.</p>
+														</div>
+													</template>
+													<img class="l" src="~assets/images/icon/info-feature.png" />
+												</el-tooltip>
 												שלם עכשיו
 												<img class="r" src="~assets/images/icon/qb.png" />
 											</div>
 										</div>
 										<div class="info wallet no-boder">
 											<div class="p" v-if="item2.bedding_type">
-												<img class="l" src="~assets/images/icon/info-feature.png" />
+												<el-tooltip :offset="-35" hide-after="10000" effect="dark"
+													placement="top-end">
+													<template #content>
+
+														<div class="tooltip-li">
+															<p class="title">סידור שינה</p>
+															<p class="text">{{item2.bedding_type}}
+															</p>
+														</div>
+													</template>
+													<img class="l" src="~assets/images/icon/info-feature.png" />
+												</el-tooltip>
+
 												{{item2.bedding_type}}
 												<img class="r" src="~assets/images/icon/icon27.png" />
 											</div>
@@ -392,8 +453,10 @@
 								<h4>שירותים</h4>
 								<div class="device-list">
 									<div class="device-li" v-for="(item,index) in amenities" :key="index">
-										<div class="name">{{item.group_name||'五标题'}}<img
-												src="../assets/images/icon/my.png" /></div>
+										<div class="name">{{item.group_name}}
+											<!-- <img
+												src="../assets/images/icon/my.png" /> -->
+										</div>
 										<div class="item">
 											<p v-for="(items,indexs) in item.amenities" :key="indexs">
 												{{items}}<span></span>
@@ -411,11 +474,10 @@
 									<div ref="map" id="map" class="mapid"></div>
 								</div>
 								<div class="maps-icon">
-									<div class="maps-icon-li">
-										<h4>מקומות בקרבת מקום</h4>
-										<p>Fall of Atlantis at Cesar's place <img src="../assets/images/icon/my.png" />
-										</p>
-										<p>Fall of Atlantis at Cesar's place <img src="../assets/images/icon/my.png" />
+									<div class="maps-icon-li" v-if="item.list.length>0" v-for="(item,index) in pois" :key="index">
+										<h4>{{item.type}}</h4>
+										<p v-for="(items,indexs) in item.list" :key="indexs">{{items.name}}
+										<!-- <img src="../assets/images/icon/my.png" /> -->
 										</p>
 									</div>
 								</div>
@@ -434,7 +496,7 @@
 										<p class="t">{{other.check_in_time}} אחרי</p>
 									</div>
 								</div>
-								<div class="progressTime-li" style="margin-top: 0.48rem;">
+								<div class="progressTime-li progressTime-bott" style="margin-top: 0.48rem;">
 									<div class="progress">
 										<el-progress :format="outformat" :stroke-width="8" :percentage="outpercentage"
 											color="rgba(255, 50, 99, 1)"></el-progress>
@@ -1126,7 +1188,7 @@
 					window.addEventListener("resize", this.checkIfMobile);
 					if (this.other.check_in_time) {
 						const checkTime = this.other.check_in_time.split(":")[0]
-						this.checkpercentage = (Number(checkTime) / 24) * 100
+						this.checkpercentage = ((24 - (Number(checkTime))) / 24) * 100
 					}
 					if (this.other.check_out_time) {
 						const outTime = this.other.check_out_time.split(":")[0]
@@ -1143,6 +1205,21 @@
 </script>
 
 <style lang="scss" scoped>
+	.tooltip-li {
+		text-align: right;
+
+		.title {
+			font-size: 0.14rem;
+			color: #fff;
+		}
+
+		.text {
+			margin-top: 0.04rem;
+			font-size: 0.12rem;
+			color: rgba(245, 245, 245, 0.6);
+		}
+	}
+
 	.map-box {
 		height: 500px;
 		overflow: hidden;
@@ -1196,6 +1273,10 @@
 			font-size: 16px;
 			font-weight: 400;
 		}
+	}
+
+	.progressTime-bott::v-deep .el-progress-bar {
+		padding-right: 0;
 	}
 
 	.progressTime-top::v-deep .el-progress-bar {
